@@ -10,7 +10,7 @@ inputs:
     default: '.github/.gitleaks.toml'
   branch:
     description: 'Branch to scan'
-    required: false
+    required: true
 outputs:
   result: # id of output
     description: 'Gitleaks log output'
